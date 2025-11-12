@@ -28,7 +28,7 @@ As an author, I want to clean up the default Docusaurus project and add the firs
 
 - **FR-001**: The system MUST remove all default content files from the `ai-native/docs` directory.
 - **FR-002**: The system MUST create a new file `intro.md` in the `ai-native/docs` directory.
-- **FR-003**: The system MUST populate `intro.md` with the introductory chapter of the book on "Physical AI Robotics". [NEEDS CLARIFICATION: The content of the introduction chapter is missing. Please provide the text from the Google Doc.]
+- **FR-003**: The system MUST populate `intro.md` with the introductory chapter of the book on "Physical AI Robotics", based on the detailed content provided by the user.
 
 ## Success Criteria *(mandatory)*
 
