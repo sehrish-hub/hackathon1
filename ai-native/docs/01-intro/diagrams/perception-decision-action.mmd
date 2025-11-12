@@ -1,0 +1,11 @@
+```mermaid
+graph LR
+    Sensors["🎥 SENSORS<br/>Camera, LiDAR, IMU<br/>Read physical state"] -->|state data| Brain["🧠 AI BRAIN<br/>ROS 2 + LLMs<br/>Decide next action"]
+    Brain -->|motor commands| Actuators["🤖 ACTUATORS<br/>Motors, Servos<br/>Execute movement"]
+    Actuators -->|physical change| World["🌍 PHYSICAL WORLD<br/>Environment updated"]
+    World -->|feedback| Sensors
+    style Sensors fill:#e3f2fd
+    style Brain fill:#fff3e0
+    style Actuators fill:#f3e5f5
+    style World fill:#e8f5e9
+```

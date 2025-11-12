@@ -1,0 +1,18 @@
+```mermaid
+graph TB
+    subgraph Pillars["Three Pillars of Physical AI"]
+        P1["Pillar 1: SIMULATION<br/>Digital Twin<br/>Gazebo, Isaac Sim<br/>Physics engines"]
+        P2["Pillar 2: CONTROL<br/>ROS 2 Middleware<br/>Real-time execution<br/>Hardware abstraction"]
+        P3["Pillar 3: AI REASONING<br/>LLMs + Planning<br/>GPT-4, Whisper<br/>Natural language"]
+    end
+    subgraph Output["OUTPUT: Embodied Intelligence"]
+        Robot["Humanoid Robot<br/>Understanding physics<br/>Following commands<br/>Adapting to failures"]
+    end
+    P1 --> Robot
+    P2 --> Robot
+    P3 --> Robot
+    style P1 fill:#ffe0b2
+    style P2 fill:#c8e6c9
+    style P3 fill:#b3e5fc
+    style Robot fill:#f8bbd0
+```

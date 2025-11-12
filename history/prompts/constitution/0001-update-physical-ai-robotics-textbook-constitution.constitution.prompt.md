@@ -1,15 +1,28 @@
-<!-- Sync Impact Report:
-Version change: None -> 1.0
-Modified principles: All (initial set)
-Added sections: Project Overview, Technical Architecture, Book Structure, Content Guidelines, RAG Chatbot Requirements, Authentication & Personalization, Development Workflow, Quality Checklist, Bonus Points Strategy, File Structure, Success Metrics, Demo Video Guidelines, Contingency Plans, Ethics & Attribution, Post-Hackathon Vision, Final Notes
-Removed sections: None
-Templates requiring updates:
-- .specify/templates/plan-template.md: ✅ updated (checked for alignment)
-- .specify/templates/spec-template.md: ✅ updated (checked for alignment)
-- .specify/templates/tasks-template.md: ✅ updated (checked for alignment)
-- .specify/templates/commands/*.md: ✅ updated (checked for alignment)
-Follow-up TODOs: None
--->
+---
+id: 0001
+title: Update Physical AI Robotics Textbook Constitution
+stage: constitution
+date: 2025-11-12
+surface: agent
+model: claude-sonnet-4-5-20250929
+feature: none
+branch: master
+user: sehri
+command: /sp.constitution
+labels: [constitution, update]
+links:
+  spec: null
+  ticket: null
+  adr: null
+  pr: null
+files:
+  - .specify/memory/constitution.md
+tests: null
+---
+
+## Prompt
+
+```text
 # /sp.constitution
 
 ## Project Overview
