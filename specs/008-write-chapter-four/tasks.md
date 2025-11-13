@@ -25,7 +25,7 @@ description: "Task list for feature implementation"
 
 **Purpose**: Create the directory structure for the new chapter.
 
-- [ ] T001 Create a new directory `ai-native/docs/04-building-ros2-packages`.
+- [X] T001 Create a new directory `ai-native/docs/04-building-ros2-packages`.
 
 ---
 
@@ -37,7 +37,7 @@ description: "Task list for feature implementation"
 
 ### Implementation for User Story 1
 
-- [ ] T002 [US1] Create an `index.md` file in `ai-native/docs/04-building-ros2-packages` with the chapter title and introduction based on `research.md`.
+- [X] T002 [US1] Create an `index.md` file in `ai-native/docs/04-building-ros2-packages` with the chapter title and introduction based on `research.md`.
 
 ---
 
@@ -49,7 +49,7 @@ description: "Task list for feature implementation"
 
 ### Implementation for User Story 2
 
-- [ ] T003 [US2] Create a new file for each section of the chapter in `ai-native/docs/04-building-ros2-packages` and write the content based on the outline in `research.md`.
+- [X] T003 [US2] Create a new file for each section of the chapter in `ai-native/docs/04-building-ros2-packages` and write the content based on the outline in `research.md`.
   - `4.1-anatomy-of-a-ros2-package.md`
   - `4.2-creating-a-ros2-package.md`
   - `4.3-the-package-xml-manifest.md`
@@ -70,8 +70,8 @@ description: "Task list for feature implementation"
 
 ### Implementation for User Story 3
 
-- [ ] T004 [P] [US3] Create and add at least two diagrams to the chapter to illustrate key concepts.
-- [ ] T005 [P] [US3] Create and add at least three code examples to the chapter.
+- [X] T004 [P] [US3] Create and add at least two diagrams to the chapter to illustrate key concepts.
+- [X] T005 [P] [US3] Create and add at least three code examples to the chapter.
 
 ---
 
@@ -79,8 +79,8 @@ description: "Task list for feature implementation"
 
 **Purpose**: Final review and cleanup.
 
-- [ ] T006 Review the entire chapter for consistency, clarity, and correctness.
-- [ ] T007 [P] Update the sidebar in `ai-native/sidebars.ts` to include the new chapter.
+- [X] T006 Review the entire chapter for consistency, clarity, and correctness.
+- [X] T007 [P] Update the sidebar in `ai-native/sidebars.ts` to include the new chapter.
 
 ---
 
