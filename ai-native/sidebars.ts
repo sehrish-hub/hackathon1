@@ -47,6 +47,36 @@ const sidebars: SidebarsConfig = {
         // 'ros2-basics/topic-6-ros2-in-physical-ai' removed: document does not exist
       ],
     },
+    {
+      type: 'category',
+      label: 'Chapter 3: LLMs and ROS 2: Towards Embodied Intelligence',
+      link: {
+        type: 'doc',
+        id: 'llm-ros2-integration/ch3-llm-ros2-integration',
+      },
+      items: [
+        'llm-ros2-integration/topic-1-emergence-of-llms-in-robotics',
+        'llm-ros2-integration/topic-2-architectural-patterns-for-llm-ros2-integration',
+        'llm-ros2-integration/topic-3-task-decomposition-and-semantic-planning-with-llms',
+        'llm-ros2-integration/topic-4-practical-integration-with-langchain',
+        'llm-ros2-integration/topic-5-advanced-topics-and-future-directions',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Chapter 4: Test Chapter Title',
+      link: {
+        type: 'doc',
+        id: 'test-chapter/ch4-test-chapter',
+      },
+      items: [
+        'test-chapter/topic-1-test-topic-one',
+        'test-chapter/topic-2-test-topic-two',
+        'test-chapter/topic-3-test-topic-three',
+        'test-chapter/topic-4-test-topic-four',
+        'test-chapter/topic-5-test-topic-five',
+      ],
+    },
   ],
 
   // But you can create a sidebar manually
