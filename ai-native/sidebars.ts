@@ -47,6 +47,41 @@ const sidebars: SidebarsConfig = {
         // 'ros2-basics/topic-6-ros2-in-physical-ai' removed: document does not exist
       ],
     },
+    {
+      type: 'category',
+      label: 'Chapter 3: LLMs and ROS 2: Towards Embodied Intelligence',
+      link: {
+        type: 'doc',
+        id: 'llm-ros2-integration/ch3-llm-ros2-integration',
+      },
+      items: [
+        'llm-ros2-integration/topic-1-emergence-of-llms-in-robotics',
+        'llm-ros2-integration/topic-2-architectural-patterns-for-llm-ros2-integration',
+        'llm-ros2-integration/topic-3-task-decomposition-and-semantic-planning-with-llms',
+        'llm-ros2-integration/topic-4-practical-integration-with-langchain',
+        'llm-ros2-integration/topic-5-advanced-topics-and-future-directions',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Chapter 4: Building ROS 2 Packages',
+      link: {
+        type: 'doc',
+        id: 'building-ros2-packages/index',
+      },
+      items: [
+        'building-ros2-packages/4.1-anatomy-of-a-ros2-package',
+        'building-ros2-packages/4.2-creating-a-ros2-package',
+        'building-ros2-packages/4.3-the-package-xml-manifest',
+        'building-ros2-packages/4.4-the-setup-py-file',
+        'building-ros2-packages/4.5-writing-a-simple-ros2-node',
+        'building-ros2-packages/4.6-building-and-running-the-package',
+        'building-ros2-packages/4.7-using-launch-files',
+        'building-ros2-packages/examples',
+        'building-ros2-packages/exercises',
+        'building-ros2-packages/summary',
+      ],
+    },
   ],
 
   // But you can create a sidebar manually
