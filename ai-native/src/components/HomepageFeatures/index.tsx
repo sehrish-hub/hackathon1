@@ -5,48 +5,54 @@ import styles from './styles.module.css';
 
 type FeatureItem = {
   title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
   description: ReactNode;
 };
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Embodied Intelligence',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Explore how AI is moving beyond the screen, empowering robots to perceive, reason, and act within the physical world, fostering true embodied intelligence.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Advanced Humanoid Robotics',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Delve into the cutting-edge of humanoid design, locomotion, and manipulation, understanding how these machines are built to navigate and interact with human-centric environments.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'ROS 2 & LLM Integration',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Learn about the powerful synergy between ROS 2, the Robot Operating System, and Large Language Models (LLMs) to create intelligent, adaptable, and human-friendly robotic systems.
       </>
     ),
   },
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({title, description}: FeatureItem) {
+  let imageSrc;
+  let altText;
+  if (title === 'Embodied Intelligence') {
+    imageSrc = '/img/robot_head.svg';
+    altText = 'Embodied Intelligence Icon';
+  } else if (title === 'Advanced Humanoid Robotics') {
+    imageSrc = '/img/humanoid_robot.svg';
+    altText = 'Humanoid Robot Icon';
+  } else if (title === 'ROS 2 & LLM Integration') {
+    imageSrc = '/img/integration.svg';
+    altText = 'Integration Icon';
+  }
+
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+        {imageSrc && <img src={imageSrc} alt={altText} className={styles.featureSvg} />}
       </div>
       <div className="text--center padding-horiz--md">
         <Heading as="h3">{title}</Heading>

@@ -1,0 +1,121 @@
+.root {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 56px 16px;
+  min-height: calc(100vh - 120px);
+  background: linear-gradient(180deg, rgba(11,95,255,0.04), transparent 40%);
+}
+
+.card {
+  width: 100%;
+  max-width: 480px;
+  background: var(--ifm-card-background-color, #fff);
+  border-radius: 12px;
+  padding: 32px;
+  box-shadow: 0 10px 30px rgba(16,24,40,0.08);
+  border: 1px solid rgba(15, 23, 42, 0.04);
+}
+
+.logo {
+  width: 64px;
+  height: 64px;
+  display: block;
+  margin: 0 0 12px 0;
+}
+
+.title {
+  margin: 0 0 6px 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.subtitle {
+  margin: 0 0 18px 0;
+  color: var(--ifm-color-gray-600, #6b7280);
+  font-size: 0.95rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.label {
+  font-size: 0.9rem;
+}
+
+.input {
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid var(--ifm-form-input-border-color, #d0d7de);
+  background: var(--ifm-form-input-background, #fff);
+  transition: box-shadow .12s ease, border-color .12s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: rgba(11,95,255,0.6);
+  box-shadow: 0 6px 18px rgba(11,95,255,0.06);
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.checkboxLabel {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.link {
+  font-size: 0.9rem;
+}
+
+.button {
+  margin-top: 8px;
+  padding: 12px 14px;
+  border-radius: 8px;
+  background: var(--ifm-color-primary, #0b5fff);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.button[disabled] {
+  opacity: 0.7;
+  cursor: default;
+}
+
+.error {
+  padding: 10px 12px;
+  background: #fff1f0;
+  border: 1px solid #ffd7d9;
+  color: #9f1239;
+  border-radius: 8px;
+}
+
+.success {
+  padding: 10px 12px;
+  background: #f0fff4;
+  border: 1px solid #bbf7d0;
+  color: #065f46;
+  border-radius: 8px;
+}
+
+.helper {
+  margin-top: 18px;
+  font-size: 0.95rem;
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 18px;
+  }
+}
