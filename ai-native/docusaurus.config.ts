@@ -59,14 +59,11 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
-    colorMode: {
-      respectPrefersColorScheme: true,
-    },
     navbar: {
       title: 'AI Native',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'https://media.licdn.com/dms/image/v2/D4E22AQHK4dBzvwM04w/feedshare-shrink_480/B4EZm_AHZmKYAY-/0/1759846103374?e=2147483647&v=beta&t=rdbJ3bKu7Soyx6pFgG8jxub4jEiWrLD73mSq8Qmncvw',
       },
       items: [
         {
@@ -75,14 +72,9 @@ const config: Config = {
           position: 'left',
           label: 'Book',
         },
-        
         {
           href: 'https://github.com/sehrish-hub/hackathon1',
           label: 'GitHub',
-          position: 'right',
-        },
-        {
-          type: 'custom-AuthNavbarItem',
           position: 'right',
         },
       ],
@@ -94,8 +86,12 @@ const config: Config = {
           title: 'Learn',
           items: [
             {
-              label: 'Book',
-              to: '/docs/intro',
+              label: 'Start Your Journey',
+              to: '/docs/01-intro',
+            },
+            {
+              label: 'Full Curriculum',
+              to: '/docs/01-intro',
             },
           ],
         },
@@ -103,23 +99,14 @@ const config: Config = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'LinkedIn',
+              href: 'https://www.linkedin.com/in/sehrish-shafiq/',
             },
           ],
         },
         {
           title: 'More',
           items: [
-
             {
               label: 'GitHub',
               href: 'https://github.com/sehrish-hub/hackathon1',
@@ -127,7 +114,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Built by Sehrish Shafiq using AI Native. Copyright © ${new Date().getFullYear()}`,
+      copyright: `Copyright © ${new Date().getFullYear()} Sehrish Shafiq • AI Native Software Development • Free & Open Source`,
     },
     prism: {
       theme: prismThemes.github,

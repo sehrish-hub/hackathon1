@@ -1,0 +1,133 @@
+.hero-section {
+  padding: 6rem 2rem;
+  background-color: #0d0d0d;
+  color: white;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('https://medicalbuyer.co.in/wp-content/uploads/2023/05/Indias-tryst-with-AI-robotics-in-healthcare-may-prove-to-be-milestone.jpg');
+  background-size: cover;
+  background-position: center;
+  opacity: 0.1;
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero-content h1 {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.as-seen-on {
+  padding: 2rem 2rem;
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSGPZPP0rWgOJ5xTTuhyXBbJjEN56d1kzbKsstzzpmWqj5JXYrHAJ2u8yz78kfvMplH6M&usqp=CAU');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.as-seen-on h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  color: white; /* White text for contrast */
+}
+
+.logos img {
+  height: 40px;
+  filter: grayscale(100%) invert(100%); /* Invert for dark background */
+  opacity: 0.8;
+}
+
+.topics-section {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color: #1a1a1a; /* Darker background for the section */
+  color: white; /* White text for contrast */
+}
+
+.topics-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+  color: white; /* White text for the heading */
+}
+
+.topics-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.topic-card {
+  background-color: #2a2a2a; /* Slightly lighter dark background for cards */
+  border: 1px solid #444; /* Darker border */
+  padding: 2rem;
+  border-radius: 8px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: white; /* White text for card content */
+}
+
+.topic-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3); /* Darker shadow on hover */
+}
+
+.topic-card h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: white; /* White text for card titles */
+}
+
+.topic-card a {
+  color: #4444ff; /* A contrasting color for links */
+}
+
+.topic-card a:hover {
+  color: #6666ff; /* Lighter shade on hover */
+}
+
+footer.footer--dark {
+  background-color: #0d0d0d;
+  color: white;
+}
+
+footer.footer--dark a {
+  color: #cccccc; /* Lighter links in the footer */
+}
+
+footer.footer--dark a:hover {
+  color: white; /* White on hover */
+}
