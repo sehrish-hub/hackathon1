@@ -2,7 +2,6 @@
 id: ch2-ros2-basics
 title: "Chapter 2: ROS 2: The Backbone of Physical AI"
 sidebar_label: "Ch 2: ROS 2 Basics"
-slug: /chapter-2-ros2-basics
 ---
 
 **Learning Objectives**
